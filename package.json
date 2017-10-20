@@ -1,7 +1,7 @@
 { 
-	"name": "homebridge-symcon", 
-	"version": "0.0.0", 
-	"description": "homebridge plugin for IP-Symcon", 
+	"name": "docker-symcon-homebridge", 
+	"version": "0.0.1", 
+	"description": "docker homebridge plugin for IP-Symcon", 
 	"main": "index.js", 
 	"scripts": { 
 		"test": "echo \"Error: no test specified\" && exit 1", 
@@ -28,14 +28,14 @@
 		"fs": ""
 	}, 
 	"author": { 
-		"name": "andre", 
+		"name": "Rene", 
 		"e-mail": "", 
-		"url": "https://github.com/w-andre"
+		"url": "https://github.com/MegaraSoftware"
 	},
 	"contributors": [], 
 	"license": "MIT", 
 	"bugs": { 
-		"url": "https://github.com/w-andre/homebridge-symcon/issues"
+		"url": "https://github.com/MegaraSoftware/docker-symcon-homebridge/issues"
 	},
-	"homepage": "https://github.com/w-andre/homebridge-symcon"
+	"homepage": "https://github.com/MegaraSoftware/docker-symcon-homebridge"
 }
