@@ -1,40 +1,40 @@
-{ 
-	"name": "docker-symcon-homebridge", 
-	"version": "0.0.1", 
-	"description": "docker homebridge plugin for IP-Symcon", 
-	"main": "index.js", 
-	"scripts": { 
-		"test": "echo \"Error: no test specified\" && exit 1", 
+{
+	"name": "docker-symcon-homebridge",
+	"version": "0.0.2",
+	"description": "docker homebridge plugin for IP-Symcon",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "echo \"Error: configure and run homebridge to start\" && exit 1"
-	}, 
-	"engines": { 
-		"node": ">4.0.0", 
+	},
+	"engines": {
+		"node": ">4.0.0",
 		"homebridge": "^0.4.0"
 	},
-	"repository": { 
-		"type": "git", 
+	"repository": {
+		"type": "git",
 		"url": "https://github.com/MegaraSoftware/docker-symcon-homebridge.git"
-	}, 
-	"keywords": [ 
-		"homebridge-plugin", 
-		"homebridge", 
-		"IPS", 
-		"Symcon", 
+	},
+	"keywords": [
+		"homebridge-plugin",
+		"homebridge",
+		"IPS",
+		"Symcon",
 		"IP-Symcon"
-	], 
+	],
 	"dependencies": {
 		"node-json-rpc": "",
 		"async": "",
 		"fs": ""
-	}, 
-	"author": { 
-		"name": "Rene", 
-		"e-mail": "", 
+	},
+	"author": {
+		"name": "Rene",
+		"e-mail": "",
 		"url": "https://github.com/MegaraSoftware"
 	},
-	"contributors": [], 
-	"license": "MIT", 
-	"bugs": { 
+	"contributors": [],
+	"license": "MIT",
+	"bugs": {
 		"url": "https://github.com/MegaraSoftware/docker-symcon-homebridge/issues"
 	},
 	"homepage": "https://github.com/MegaraSoftware/docker-symcon-homebridge"
