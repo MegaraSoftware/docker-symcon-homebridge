@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '.',
+1 verbose cli   '--tag',
+1 verbose cli   'latest' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/Rene/Documents/GitHub/docker-symcon-homebridge',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/Rene/.npm/docker-symcon-homebridge/0.0.4/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/Rene/.npm correctMkdir not in flight; initializing
+10 info lifecycle docker-symcon-homebridge@0.0.4~prepublish: docker-symcon-homebridge@0.0.4
+11 silly lifecycle docker-symcon-homebridge@0.0.4~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/Rene/.npm/docker-symcon-homebridge/0.0.4/package.tgz',
+12 verbose tar pack   '/Users/Rene/Documents/GitHub/docker-symcon-homebridge' ]
+13 verbose tarball /Users/Rene/.npm/docker-symcon-homebridge/0.0.4/package.tgz
+14 verbose folder /Users/Rene/Documents/GitHub/docker-symcon-homebridge
+15 verbose addLocalTarball adding from inside cache /Users/Rene/.npm/docker-symcon-homebridge/0.0.4/package.tgz
+16 verbose correctMkdir /Users/Rene/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd docker-symcon-homebridge@0.0.4
+18 verbose afterAdd /Users/Rene/.npm/docker-symcon-homebridge/0.0.4/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/Rene/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/Rene/.npm/docker-symcon-homebridge/0.0.4/package/package.json written
+21 silly publish { name: 'docker-symcon-homebridge',
+21 silly publish   version: '0.0.4',
+21 silly publish   description: 'docker homebridge plugin for IP-Symcon',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts:
+21 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+21 silly publish      start: 'echo "Error: configure and run homebridge to start" && exit 1' },
+21 silly publish   engines: { node: '>4.0.0', homebridge: '^0.4.0' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/MegaraSoftware/docker-symcon-homebridge.git' },
+21 silly publish   keywords: [ 'homebridge-plugin', 'homebridge', 'IPS', 'Symcon', 'IP-Symcon' ],
+21 silly publish   dependencies: { 'node-json-rpc': '', async: '', fs: '' },
+21 silly publish   author: { name: 'Rene', url: 'https://github.com/MegaraSoftware' },
+21 silly publish   contributors: [],
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/MegaraSoftware/docker-symcon-homebridge/issues' },
+21 silly publish   homepage: 'https://github.com/MegaraSoftware/docker-symcon-homebridge',
+21 silly publish   readme: '# homebridge-symcon\nIP-Symcon plugin for homebridge\n\n## Installation (Debian)\n\n* Install Debian 8.2 (Jessie)\n* Install dependencies (e.g. NodeJS, NPM):\n```\n    $ sudo apt-get install libavahi-compat-libdnssd-dev\n    $ sudo apt-get install libkrb5-dev\n    $ sudo wget -qO- https://deb.nodesource.com/setup_5.x | sudo bash -\n    $ sudo apt-get install nodejs\n    $ sudo apt-get install build-essential\n    $ sudo apt-get install git\n```\n* Install Homebridge\n```\t\n    $ sudo npm install -g homebridge\n```\t\n* Install Symcon-Plugin for Homebridge\n```\n    $ sudo npm install -g homebridge-symcon\n```\t\n* Create Homebridge configuration file \'config.json\' in Directory .homebridge in user home (see config-sample.json)\n* Start Homebridge\n```\n    $ homebridge\n```\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'c33b20841e7ef693cac0ed939897b51225730c31',
+21 silly publish   _id: 'docker-symcon-homebridge@0.0.4',
+21 silly publish   _shasum: 'd43ea48c20c6ccb8d840e4a83455e41dffd909d1',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name docker-symcon-homebridge
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'docker-symcon-homebridge',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'docker-symcon-homebridge',
+26 silly mapToRegistry   name: 'docker-symcon-homebridge',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/docker-symcon-homebridge
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/Rene/.npm/docker-symcon-homebridge/0.0.4/package.tgz
+30 verbose request uri https://registry.npmjs.org/docker-symcon-homebridge
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 19:46:37
+33 verbose request using bearer token for auth
+34 verbose request id 79ed1e6c47d3e817
+35 http request PUT https://registry.npmjs.org/docker-symcon-homebridge
+36 http 403 https://registry.npmjs.org/docker-symcon-homebridge
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '104',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Sat, 21 Oct 2017 17:46:41 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-hhn1549-HHN',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1508608000.217945,VS0,VE970',
+37 verbose headers   vary: 'Accept-Encoding, Accept' }
+38 verbose request invalidating /Users/Rene/.npm/registry.npmjs.org/docker-symcon-homebridge on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: you must verify your email before publishing a new package: https://www.npmjs.com/email-edit : docker-symcon-homebridge
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid docker-symcon-homebridge
+43 verbose cwd /Users/Rene/Documents/GitHub/docker-symcon-homebridge
+44 error Darwin 17.0.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "." "--tag" "latest"
+46 error node v6.9.5
+47 error npm  v3.10.10
+48 error code E403
+49 error you must verify your email before publishing a new package: https://www.npmjs.com/email-edit : docker-symcon-homebridge
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

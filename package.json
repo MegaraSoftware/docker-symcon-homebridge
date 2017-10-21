@@ -1,6 +1,6 @@
 {
 	"name": "docker-symcon-homebridge",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "docker homebridge plugin for IP-Symcon",
 	"main": "index.js",
 	"scripts": {
